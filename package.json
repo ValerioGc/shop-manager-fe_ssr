@@ -1,0 +1,38 @@
+{
+  "name": "shop-manager-fe_ssr",
+  "private": true,
+  "type": "module",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "nuxt build --mode production",
+    "dev": "nuxt dev --mode development",
+    "docker-dev": "npm install && vite --mode development --host 0.0.0.0 --port 5173",
+    "optimize-svg": "svgo -f ./src/assets/ -o ./dist/assets/",
+    "build-test": "vite build --mode test",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "generate-sitemap:dev": "node scripts/generate-sitemap.mts development",
+    "generate-sitemap:prod": "node scripts/generate-sitemap.mts production"
+  },
+  "dependencies": {
+    "@nuxt/types": "^2.18.1",
+    "@pinia/nuxt": "^0.10.1",
+    "axios": "1.7.9",
+    "nuxt": "^3.15.4",
+    "pinia": "^3.0.1",
+    "vue": "latest",
+    "vue-router": "latest",
+    "vue3-carousel": "^0.14.0"
+  },
+  "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^7.0.2",
+    "autoprefixer": "^10.4.20",
+    "cssnano": "^7.0.6",
+    "postcss-csso": "^6.0.1",
+    "rollup-plugin-terser": "^7.0.2",
+    "svgo": "^3.3.2",
+    "sass-embedded": "^1.85.0",
+    "vite-plugin-compression": "^0.5.1"
+  }
+}
