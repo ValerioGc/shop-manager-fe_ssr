@@ -9,7 +9,7 @@
 <br/>
 
 ***Shop Manager Frontend SSR** is a production-ready showcase site built with **Vue.js** and **Nuxt.js** (SSR) in **TypeScript**, using **Pinia** for state management and **Sass** for styling. 
- The frontend reads a local **config.json** at build time to manage API endpoints, feature flags, theming, and SEO defaults—these settings are also stored and editable via the [Back Office Admin panel](https://github.com/ValerioGc/shop-manager-bo). At runtime, the app fetches dynamic data (products, categories, contacts, etc..) from the [Shop Manager Backend](https://github.com/ValerioGc/laravel-shop-manager) via RESTful APIs with built-in error handling. Fully server-side rendered with Nuxt.js and Pinia, every page ships complete HTML and dynamic meta tags for instant load and SEO.*
+The frontend reads a local **config.json** at build time to manage API endpoints, feature flags, theming, and SEO defaults these settings are also stored and editable via the [Back Office Admin panel](https://github.com/ValerioGc/shop-manager-bo). At runtime, the app fetches dynamic data (products, categories, contacts, etc..) from the [Shop Manager Backend](https://github.com/ValerioGc/laravel-shop-manager) via RESTful APIs with built-in error handling. Fully server-side rendered with Nuxt.js and Pinia, every page ships complete HTML and dynamic meta tags for instant load and SEO.*
   
 
 <br/> 
